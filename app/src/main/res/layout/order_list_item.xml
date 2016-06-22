@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#cdcdcd"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/personinfo_about"/>
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="柠檬不萌"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:textSize="12sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/next_menu_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="200dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已确认收货"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#cdcdcd"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF5EE">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/beauty"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="MVC已经是现代Web开发中的一个很重要的部分，下面介绍一下Spring MVC的一些使用心得"
+            android:layout_marginLeft="120dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#cdcdcd"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:text="评   价"
+            android:layout_marginRight="20dp"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/common_button_selector"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFF0F5"/>
+</LinearLayout>

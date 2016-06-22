@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aestheticism.iml" filepath="$PROJECT_DIR$/Aestheticism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDaoGenerator/MyDaoGenerator.iml" filepath="$PROJECT_DIR$/MyDaoGenerator/MyDaoGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefreshscrollview/pulltorefreshscrollview.iml" filepath="$PROJECT_DIR$/pulltorefreshscrollview/pulltorefreshscrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tagview/tagview.iml" filepath="$PROJECT_DIR$/tagview/tagview.iml" />
+    </modules>
+  </component>
+</project>

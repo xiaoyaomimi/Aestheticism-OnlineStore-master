@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/headslideview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F0F0F0"
+        >
+
+        <RelativeLayout android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/search_background"
+            android:layout_height="wrap_content">
+
+            <Button android:id="@+id/btnSearch"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@mipmap/search_btn_background"
+                android:text="搜索"/>
+
+            <RelativeLayout android:id="@+id/rlSearchFrameDelete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@id/btnSearch">
+
+                <EditText android:id="@+id/etSearch"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:background="@mipmap/banner"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="5dp"
+                    android:textSize="12sp"
+                    android:hint="请输入内容..."
+                    android:drawableLeft="@mipmap/search_ico"/>
+
+                <ImageView android:id="@+id/ivDeleteText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/delete"
+                    android:layout_centerInParent="true"
+                    android:paddingRight="20dp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <com.caidongdong.aestheticism.view.SlideShowView
+            android:id="@+id/slideview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+        </com.caidongdong.aestheticism.view.SlideShowView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#cdcdcd"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_marginTop="10dp"
+            android:background="#cdcdcd"/>
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:cacheColorHint="#00000000"
+            android:verticalSpacing="10dp"
+            android:background="#ffffff"
+            android:listSelector="@drawable/gridview_list_selector"
+            >
+        </GridView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#cdcdcd"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#cdcdcd"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#ffffff"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="商品推荐"
+                android:layout_gravity="center_vertical"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#cdcdcd"
+            />
+    </LinearLayout>
+
+</LinearLayout>

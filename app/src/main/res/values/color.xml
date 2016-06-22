@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="groupbutton">#a3a3a3</color>
+    <color name="titletext_color">#ffffff</color>
+    <color name="navigate_dinkline">#bfbfbf</color>
+    <color name="black">#000</color>
+    <color name="gridview">#FFFFE0</color>
+    <color name="common_btn_normal">#D1EEEE</color>
+    <color name="common_btn_press">#03cafd</color>
+    <color name="cart_btn_normal">#ff26</color>
+    <color name="cart_btn_press">#ff49</color>
+    <color name="custom_dialog_btn_normal">#00000000</color>
+    <color name="custom_dialog_btn_pressed">#dcdcdc</color>
+    <color name="theam_tittle_color">#FF1493</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF1493"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/undone_order"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/done_order"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/xrecyclerview_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:drawSelectorOnTop="false"
+        android:background="#ffffff">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+    <FrameLayout
+        android:id="@+id/layout_order_isempty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/txt_empty_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有历史订单"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#888888"/>
+    </FrameLayout>
+</LinearLayout>

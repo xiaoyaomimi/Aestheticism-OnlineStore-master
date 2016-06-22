@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0090ff">
+
+    <!-- 没有指定圆形ImageView属性时，默认没有外边圆颜色 -->
+    <!-- 需要将图片资源自定为src ，或在程序中setImageResource(res) 不能设置background为图片，这样不能达到圆形效果-->
+    <com.caidongdong.aestheticism.view.RoundImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/beauty"
+        android:layout_gravity="center"
+        imagecontrol:border_thickness="2dp"
+        imagecontrol:border_inside_color="#50c0e9"
+        imagecontrol:border_outside_color="#ffc641"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Faraway from home"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:id="@+id/tv_song_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="滑动全屏"
+            android:textSize="14sp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_notice" />
+    </LinearLayout>
+
+    <!--<net.steamcrafted.materialiconlib.MaterialIconView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--app:materialIcon=""-->
+        <!--app:materialIconColor="#ffffff"-->
+        <!--app:materialIconSize="50dp"-->
+        <!--android:id="@+id/icon"-->
+        <!--/>-->
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- 主页面底部RadioGroup里面每个RadioButton的共同属性 -->
+    <style name="main_tab_bottom">
+        <item name="android:textSize">10.5sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">5.7dp</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/groupbutton</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+
+
+
+</resources>

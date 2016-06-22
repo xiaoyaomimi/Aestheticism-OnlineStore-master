@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"  tools:context=".MainActivity">
+
+    <view
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        class="com.caidongdong.aestheticism.view.MyViewPager">
+    </view>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/navigate_dinkline" />
+    <RadioGroup
+        android:id="@+id/main_group"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dp"
+        android:layout_gravity="bottom"
+        android:background="@color/titletext_color"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/rb_index"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/radio_button_index"
+            android:text="@string/index" />
+
+        <RadioButton
+            android:id="@+id/rb_buywhat"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/radio_button_buywhat"
+            android:text="@string/buywhat" />
+
+        <RadioButton
+            android:id="@+id/rb_order"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/radion_button_order"
+            android:text="@string/order_list" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/radion_button_me"
+            android:text="@string/myinfo" />
+
+    </RadioGroup>
+
+</LinearLayout>
