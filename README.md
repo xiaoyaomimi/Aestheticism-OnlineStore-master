@@ -1,5 +1,5 @@
 # Aestheticism-OnlineStore-master
-This project is a o2o android app client and the server is in another project
+This project is an o2o android app client and the server is in another project
 #License
 Copyright [2016] [Ali Ok - aliok AT apache org]
 
